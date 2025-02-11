@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8555020271327201898}
+  - component: {fileID: 8897425270744272611}
   m_Layer: 0
   m_Name: Cactus 3
   m_TagString: KillTrigger
@@ -34,6 +35,27 @@ Transform:
   - {fileID: 1776214487883376369}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8897425270744272611
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531612477378757285}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.3880234, y: 5.6260567, z: 2.2841072}
+  m_Center: {x: 1.3927231, y: 0.9653997, z: 0.016935349}
 --- !u!1 &2336548808241711808
 GameObject:
   m_ObjectHideFlags: 0
